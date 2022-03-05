@@ -1,0 +1,191 @@
+body {
+  background-color: cornsilk;
+}
+.App {
+  text-align: center;
+  /* background-color: black; */
+  }
+
+.t {
+  color: brown;
+  font-size: 5rem;
+}
+.nav {
+  background-color: rgb(147, 156, 156);
+  height: 5vh;
+}
+.nav span {
+  color: #ffffff;
+  font-size: 1.5rem;
+  float: left;
+  margin-left: 6vw;
+  margin-top: 10px;
+
+}
+#head {
+  font-size: 3rem;
+}
+.signup {
+
+  color: #0e0202;
+  font-size: 3rem;
+  margin-left: -47rem;
+}
+
+.input {
+  height: 2rem;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 10px 5px 5px black;
+}
+#checkbox {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  /* margin-left: -11rem; */
+}
+#button {
+  background-color: #66985A;
+  color: #ffffff;
+  font-weight: bold;
+  width: 7rem;
+}
+/* #login {
+  background-color: #6399d6;
+  color: #ffffff;
+  font-weight: bold;
+  width: 5rem;
+  border-radius: 5px;
+  text-decoration: none;
+} */
+#tAndC {
+  color: rgb(25, 94, 184);
+}
+.form {
+  /* border: 2px solid rgb(90, 84, 84); */
+  /* margin-left: -10rem; */
+  position: relative;
+  top:5vh;
+  /* left: 25%; */
+  /* width: 50%; */
+  padding: 30px;
+  /* background-color: rgb(150, 140, 140); */
+  border-radius: 5px;
+}
+.text-danger {
+  color: red;
+  margin-top: 1rem;
+  margin-left: -2rem;
+
+}
+.noData {
+  color: red;
+  padding-top: 10px;
+  margin-left: -7rem;
+}
+.noPass {
+  color: red;
+  padding-top: 10px;
+  margin-left: -5rem;
+}
+.noTC {
+  color: red;
+  margin-left: 4rem;
+  margin-top: -1rem;
+}
+.accept {
+  color: #0e0d0d;
+}
+.content {
+  border-bottom: 20px solid blue;
+  border-left: 20px solid red;
+  border-top: 20px solid brown;
+  padding: 50px;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  width: 50%;
+}
+.content h2 {
+  color: #66985A;
+  font-size: 10vh;
+}
+.para {
+  width: 50%;
+  text-align: center;
+  margin-left: 10vw;
+}
+
+.login {
+  margin-top: 30vh;
+}
+.head {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 5vw;
+}
+
+.login input {
+  height: 5vh;
+  width: 20vw;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.login button {
+  padding: 10px;
+  width: 10vw;
+  margin-top: 2rem;
+  background-color: #6399d6;
+  border-radius: 5px;
+}
+.aboutContent {
+  margin-top: 5vh;
+}
+.aboutContent h2 {
+  color:crimson;
+  font-size: 2.5rem;
+
+}
+.haveAc {
+  color: #030303;
+}
+.about {
+  width: 50%;
+  position: relative;
+  left: 23vw;
+}
+.submit {
+  position: absolute;
+  text-align: center;
+  left: 38%;
+  font-size: 2rem; 
+  font-weight: bold;
+  bottom: 10rem;
+  /* border: 2px solid black; */
+  padding: 10px;
+  /* margin-top: 5rem; */
+}
+@media only screen and (max-width:480px) {
+  .head {
+    display: block;
+  }
+  .login input {
+    height: 5vh;
+    width: 20rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  .login button {
+    padding: 10px;
+    width: 10rem;
+    margin-top: 2rem;
+    background-color: #6399d6;
+    border-radius: 5px;
+  }
+  .submit {
+    font-size: 1rem;
+    bottom: 2rem;
+    left: 25%;
+  }
+  .nav span {
+    display: none;
+  }
+}
